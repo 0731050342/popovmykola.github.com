@@ -10,7 +10,7 @@ p.italic {
 }
 
 .bg-img {
-    background-image: url("fon.jpg");
+    background-image: url(fon.jpg);
 
     min-height: 380px;
 
