@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script>
+    let user = prompt("Ви з України?", "так");
+    if (user){
+        alert("Ласкаво просимо на наш сайт!");
+    } else {
+        alert("Сайт для українців!");
+    }    
+</script>
+
+    <h1><center>Найкращий відпочинок для найкращих клієнтів</center></h1>
+<div class="bg-img">
+  <form action="">
+    <div class="container">
+      <h1>Авторизація</h1>
+
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Введіть ваш Email" name="email" required>
+
+      <label for="psw"><b>Пароль</b></label>
+      <input type="password" placeholder="Введіть ваш пароль" name="psw" required>
+
+      <button type="submit" class="btn">Авторизуватися</button>
+    </div>
+  </form>
+</div>
+
+
+<div class="container-second">
+  <h1>Незвичайні місця України</h1>
+  <div class="row">
+    <div class="column">
+      <h2>Українське мертве море</h2>
+      <p>В Україні є власне мертве море, розташоване поблизу Херсона. Там його називають лемурійське, адже вода в цьому озері забарвлена в рожевий колір. Та на цьому дива не закінчуються, адже ця вода вважається лікувальною і омолоджуючою.</p>
+      <img src="sea.jpg" alt="Sea">
+    </div>
+    <div class="column">
+      <h2>Загадковий тунель любові</h2>
+      <p>Українська Волинь сповнена загадками не менше, ніж Карпати. У Клевані розташувався таємничий тунель кохання, де щороку беруть шлюб люблячі серця. Відзначимо, серед молодят популярна традиція – садити тут саджанці дерев або квіти, що символізують їх почуття.</p>
+      <img src="tonel.jpg" alt="Tonel">
+    </div>
+    <div class="column">
+      <h2>Актовський каньйон</h2>
+      <p>Каньйон знаходиться в Миколаївській області на річці Мертвовод. Площа території складає 250 гектарів, а глибина 40-50 метрів. Ансамбль скель і гранітних валунів, які розташовані на території каньйону – унікальне місце у всій Європі.</p>
+      <br><img src="trikraty_6.jpg" alt="trikraty">
+    </div>
+    <div class="column">
+      <h2>Водоспад Гук</h2>
+      <p>Водоспад Гук – найбільший водоспад в Карпатах, його ще називають Женецький. Висота Гука становить 15 метрів, що особливо помітно в літній час. Влітку в водоспаді можна купатися, оглядати околиці з оглядового майданчика і підніматися прямо до його підніжжя.</p>
+      <img src="guk.jpg" alt="Guk">
+    </div>
+  </div>
+</div>
+
+
+<p class="italic">Ми підберемо для Вас найкращі варіанти відпочинку на будь-який бюджет. На нашому сайті Ви можете замовити екскурсію в групі, або індивідуальний відпочинок.</p>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header" style="background-color:#daa520">Груповий тур</li>
+    <li class="grey"> 200грн / доба</li>
+    <li>Група до 20 чоловік</li>
+    <li>Проживання</li>
+    <li>Сніданки</li>
+    <li>Трансфер</li>
+    <li class="grey"><a href="#" class="button" onclick="alert('Дякуємо за ваше замовлення! Перетелефонуємо найближчим часом! ');">Замовити</a></li>
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header" style="background-color:#4CAF50">Індивідуальний тур</li>
+    <li class="grey"> 350 грн / доба</li>
+    <li>Тільки Ви та професійний гід</li>
+    <li>Проживання</li>
+    <li>Сніданки</li>
+    <li>Трансфер</li>
+    <li class="grey"><a href="#" class="button" onclick="alert('Дякуємо за ваше замовлення! Перетелефонуємо найближчим часом! ');">Замовити</a></li>
+  </ul>
+</div>
+
+<div class="columns">
+  <img src="grtour.jpg" alt="Snow" style="width:100%">
+  <div class="btn mybtn" onclick="alert('Дякуємо за ваше замовлення! Перетелефонуємо найближчим часом! ');">Херсонський Гранд Каньйон</div>
+</div>
+
+<div class="columns">
+  <img src="1.jpg" alt="Snow" style="width:100%">
+  <div class="btn" onclick="alert('Дякуємо за ваше замовлення! Перетелефонуємо найближчим часом! ');">Мальовничі Карпати "Сам на сам з природою"</div>
+</div>
+
+<div class="columns">
+  <img src="3.jpg" alt="Snow" style="width:100%">
+  <div class="btn" onclick="alert('Дякуємо за ваше замовлення! Перетелефонуємо найближчим часом! ');">Тунель кохання в Рівному</div>
+</div>
+
+<div class="columns">
+  <img src="4.jpg" alt="Snow" style="width:100%">
+  <div class="btn" onclick="alert('Дякуємо за ваше замовлення! Перетелефонуємо найближчим часом! ');">Каньйони Південного Буга</div>
+</div>
+
+</body>
+</html>
